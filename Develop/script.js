@@ -1,10 +1,10 @@
 //Select ovariables
-//var jumbotron = $(".jumbotron");
-////var currentDay = $("#currentDay");
-//var currentDate = moment().format("dddd, MMMM Do YYYY");
+var jumbotron = $(".jumbotron");
+var currentDay = $("#currentDay");
+var currentDate = moment().format("dddd, MMMM Do YYYY");
 
-// Show current day and date on top of page
-////currentDay.text(currentDate);
+// Show current day and date on header
+currentDay.text(currentDate);
 
 //Create function to match past, present, and future to each hour
 //$(".description").each(function () {
@@ -27,6 +27,7 @@
 //});
 
 //Get saved textarea description from localstorage for each hour
+//$("#8 .description").val(localStorage.getItem("8"));
 //$("#9 .description").val(localStorage.getItem("9"));
 //$("#10 .description").val(localStorage.getItem("10"));
 //$("#11 .description").val(localStorage.getItem("11"));
@@ -35,4 +36,3 @@
 //$("#14 .description").val(localStorage.getItem("14"));
 //$("#15 .description").val(localStorage.getItem("15"));
 //$("#16 .description").val(localStorage.getItem("16"));
-//$("#17 .description").val(localStorage.getItem("17"));
