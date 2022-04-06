@@ -19,12 +19,12 @@ $(".description").each(function () {
   }
 });
 
-//Create function to save tasks to each matching hour
-//$(".saveBtn").on("click", function () {
-//var time = $(this).parent().attr("id");
-//var text = $(this).siblings(".description").val();
-//localStorage.setItem(time, text);
-//});
+//Save tasks to each matching hour
+$(".saveBtn").on("click", function () {
+  var time = $(this).parent().attr("id");
+  var text = $(this).siblings(".description").val();
+  localStorage.setItem(time, text);
+});
 
 //Get saved textarea description from localstorage for each hour
 //$("#8 .description").val(localStorage.getItem("8"));
