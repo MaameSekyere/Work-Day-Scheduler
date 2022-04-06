@@ -18,3 +18,4 @@ Script.js file was created to create functions to change the colors of the time 
 W3 schools, Stack Overflow
 
 ## Links
+<img width="1204" alt="Screen Shot 2022-04-06 at 7 20 45 PM" src="https://user-images.githubusercontent.com/94888460/162090159-b2b39f92-40c6-403a-8d12-7bebef720589.png">
